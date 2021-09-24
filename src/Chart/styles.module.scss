@@ -1,0 +1,9 @@
+.chart {
+  width: 100%;
+
+  div > div > div > div > div > svg > g > g > g > g > rect:not(:first-child) {
+    clip-path: inset(0px 0px round 10px);
+    border-radius: 5px;
+    stroke-linecap: round;
+  }
+}
